@@ -11,7 +11,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Envio de correo con PHP</title>
 </head>
 <body>
 	<form action="enviar_correo.php" method="get">
@@ -20,7 +20,6 @@
 		<textarea name="texto" id="" cols="30" rows="10" placeholder="Texto"></textarea>
 		<input type="submit" value="Enviar correo">
 	</form>
-	<!--Comentario prueba Github-->
 <script>
 	<?php if ($codigo == '1') { ?>
 		alert("Su correo fue enviado exitosamente");
